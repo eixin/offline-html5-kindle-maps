@@ -14,7 +14,7 @@ Installation
 1. Install a copy of GMapCatcher from here: https://code.google.com/p/gmapcatcher/ (it will generate cached maps which will be used)
 2. Run it and go to settings by clicking 'Settings' icon next to the location line
 3. On Settings tab under 'Custom Maps Directory' select 'OSM' (OpenStreetMap) in the combo box of map storage type (by default this combo should have something like 'Files'). Note the path, you will need it later
-4. (optionally) On the 'Change Theme' tab you can see your favourite map provider (the more contrast the better)
+4. (optionally) On the 'Change Theme' tab you can set your favourite map provider (the more contrast the better)
 5. Save settings and close dialog. 
 6. Navigate over the map in the GMapCatcher near the necessary location (this will cache the map)
 7. Download this repository (https://github.com/eixin/offline-html5-kindle-maps/archive/master.zip) and unzip it somewhere
