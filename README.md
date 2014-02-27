@@ -1,7 +1,7 @@
 offline-html5-kindle-maps
 =========================
 
-Offline maps for Kindle device, based on GMapCatcher code and cache. Uses W3C localStorage to persist location bet
+Offline maps for Kindle device, based on GMapCatcher code and cache. Uses W3C localStorage to persist location between page loads.
 
 Preface
 -------
