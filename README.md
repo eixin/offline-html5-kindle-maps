@@ -18,9 +18,9 @@ Installation
 5. Save settings and close dialog. 
 6. Navigate over the map in the GMapCatcher near the necessary location (this will cache the map)
 7. Download this repository (https://github.com/eixin/offline-html5-kindle-maps/archive/master.zip) and unzip it somewhere
-8. Go to the path from pt.3 (on Windows machine it looks like C:\\Users\\\<username\>\\.googlemaps) and find OSM_tiles folder in that folder
-9. Copy OSM_tiles subfolder from the folder from pt.8 to the OSM_tiles in an unzipped folder in pt.7 (replacing files/folders if necessary).
-10. Copy the unzipped folder from pt.7 with the overriden OSM_tiles subfolder to the Kindle device (e.g. to 'documents' folder). The folder will be used later in URL in browser, so you may name it shorter, like 'maps' instead of 'offline-html5-kindle-maps'. 
+8. Go to the path from pt.3 (on Windows machine it looks like C:\\Users\\\<username\>\\.googlemaps) and find **OSM_tiles** folder in that folder
+9. Copy **OSM_tiles** subfolder from the folder from pt.8 to the **OSM_tiles** in an unzipped folder in pt.7 (replacing files/folders if necessary).
+10. Copy the unzipped folder from pt.7 with the overriden OSM_tiles subfolder to the Kindle device (e.g. to 'documents' folder). The folder will be used later in URL in browser, so you may name it shorter, like '**maps**' instead of '**offline-html5-kindle-maps**'. 
 
 Run
 ---
