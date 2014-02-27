@@ -3,11 +3,13 @@ offline-html5-kindle-maps
 
 Offline maps for Kindle device, based on GMapCatcher code and cache. Uses W3C localStorage to persist location bet
 
-==Preface
+Preface
+-------
 
 These offline maps are based on a piece of HTML/JavaScript code from here: https://code.google.com/p/gmapcatcher/source/browse/trunk/wmap/?r=1174. The idea is that you populate local image cache by viewing map in GMapCatcher on your desktop/laptop machine and then copy the image cache and HTML/JS files to the device and launch map.html there (should work on every device supporting HTML5).
 
-=Installation
+Installation
+-------
 
 1. Install a copy of GMapCatcher from here: https://code.google.com/p/gmapcatcher/ (it will generate cached maps which will be used)
 2. Run it and go to settings by clicking 'Settings' icon next to the location line
@@ -20,10 +22,12 @@ These offline maps are based on a piece of HTML/JavaScript code from here: https
 9. Copy OSM_tiles folder from the folder from pt.8 to the OSM_tiles in an unzipped pt.7 (replacing files/folders if necessary).
 10. Put the unzipped data from pt.7 with the overriden OSM_tiles folder to the Kindle device (e.g. to 'documents' folder).
 
-= Run
+Run
+---
 1. Go to file:///mnt/us/documents/maps/map.html on your Kindle device in an Experimental Browser (on the Home page it is available in the Settings menu).
 2. Controls should be pretty explanatory. "Save location" button persists the current location so it will open the map on the same position next time you open the page (you may add it to Bookmarks).
 
-= Tested on
+Tested on
+---------
 * Kindle Paperwhite 2013 (2nd revision)
 * iPod touch (using iFile software)
