@@ -17,9 +17,9 @@ Installation
 4. (optionally) On the 'Change Theme' tab you can see your favourite map provider (the more contrast the better)
 5. Save settings and close dialog. 
 6. Navigate over the map in the GMapCatcher near the necessary location (this will cache the map)
-7. Download this repository and unzip it somewhere
-8. Go to the path from pt.3 (on Windows machine it looks like C:\Users\<username>\.googlemaps) and find OSM_tiles folder in that folder
-9. Copy OSM_tiles folder from the folder from pt.8 to the OSM_tiles in an unzipped pt.7 (replacing files/folders if necessary).
+7. Download this repository (https://github.com/eixin/offline-html5-kindle-maps/archive/master.zip) and unzip it somewhere
+8. Go to the path from pt.3 (on Windows machine it looks like C:\\Users\\\<username\>\\.googlemaps) and find OSM_tiles folder in that folder
+9. Copy OSM_tiles folder from the folder from pt.8 to the OSM_tiles in an unzipped folder in pt.7 (replacing files/folders if necessary).
 10. Put the unzipped data from pt.7 with the overriden OSM_tiles folder to the Kindle device (e.g. to 'documents' folder).
 
 Run
