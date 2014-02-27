@@ -3,7 +3,7 @@ offline-html5-kindle-maps
 
 Offline maps for Kindle device, based on GMapCatcher code and cache. Uses W3C localStorage to persist location bet
 
-=Preface
+==Preface
 
 These offline maps are based on a piece of HTML/JavaScript code from here: https://code.google.com/p/gmapcatcher/source/browse/trunk/wmap/?r=1174. The idea is that you populate local image cache by viewing map in GMapCatcher on your desktop/laptop machine and then copy the image cache and HTML/JS files to the device and launch map.html there (should work on every device supporting HTML5).
 
