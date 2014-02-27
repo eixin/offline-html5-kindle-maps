@@ -27,6 +27,11 @@ Run
 1. Go to file:///mnt/us/**documents/maps**/map.html on your Kindle device in an Experimental Browser (on the Home page it is available in the Settings menu). You may add this page to Bookmarks. You may also need to modify URL piece specified in bold according to the name given in Installation, pt.10.
 2. Controls should be pretty explanatory. "Save location" button persists the current location so it will open the map on the same position next time you open the page.
 
+Known issues
+------------
+* Slow on Kindle Paperwhite device (I guess because of full-color images in cache and specifics of e-ink rendering of such images).
+
+
 Tested on
 ---------
 * Kindle Paperwhite 2013 (2nd revision)
