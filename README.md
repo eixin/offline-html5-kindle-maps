@@ -24,8 +24,8 @@ Installation
 
 Run
 ---
-1. Go to file:///mnt/us/documents/maps/map.html on your Kindle device in an Experimental Browser (on the Home page it is available in the Settings menu).
-2. Controls should be pretty explanatory. "Save location" button persists the current location so it will open the map on the same position next time you open the page (you may add it to Bookmarks).
+1. Go to file:///mnt/us/documents/maps/map.html on your Kindle device in an Experimental Browser (on the Home page it is available in the Settings menu). You may add this page to Bookmarks
+2. Controls should be pretty explanatory. "Save location" button persists the current location so it will open the map on the same position next time you open the page.
 
 Tested on
 ---------
