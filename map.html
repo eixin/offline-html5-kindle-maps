@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>MAP</title>
+    <script type="text/javascript" src="js/OpenLayers.js"></script>
+    <script type="text/javascript" src="js/OpenStreetMap.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <style>
+	.button {
+		border: 1px solid black;
+		text-align: center;
+	}
+	.horz { width: 50px;} 
+	.vert { height: 50px;}
+	body { margin: 0; }
+    </style>
+</head>
+
+<body onload="mapInit();uiInit();">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:100%;" id="controlsTable">
+	<tr>
+		<td colspan="3" align="center" style="height:50px;">
+    			<input type="button" id="zoomIn" value="Zoom in" onclick="zoomMap(1)" />
+    			<input type="button" id="zoomOut" value="Zoom out" onclick="zoomMap(-1)" />
+    			<input type="button" id="save" value="Save location" onclick="persistMapLocation()" />
+			<span id="loaded"></span>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="button vert" id="moveUp" onclick="moveMap(0, -100)">
+			Up
+		</td>
+	</tr>
+	<tr>
+		<td class="button horz" id="moveLeft" onclick="moveMap(-100, 0)">&lt;</td>
+		<td>
+		    <div style="width: 100%; height:100%" id="theMap"></div>
+		</td>
+		<td class="button horz" id="moveRight" onclick="moveMap(100, 0)">&gt;</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="button vert" id="moveDown" onclick="moveMap(0, 100)">
+			Down
+		</td>
+	</tr>
+    </table>
+</body>
+</html>
